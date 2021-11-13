@@ -16,13 +16,14 @@ export const GifExpertApp = () => {
       />
       <hr />
 
-
       { categories.map( category => (
         <GifGrid
           category={ category }
           key={ category }
         />
       ))}
+
+      <p className='author'>Coded by Nicolas Conde</p>
 
 
     </>
