@@ -1,13 +1,84 @@
-body {
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: rgb(236, 230, 230);
+  padding: 3rem;
+}
+
+h2 {
+  color: rgb(33, 41, 49);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(51, 66, 82);
+  font-size: 25px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+input {
+  border: none;
+  border-radius: 4px;
+  color: gray;
+  font-size: 1.2rem;
+  height: 35px;
+  margin: 30px 0;
+  max-width: 640px;
+  width: 100%;
+}
+
+.card-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  margin: 0 auto 100px auto;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.card {
+  align-content: center;
+  background-color: rgb(247, 246, 246);
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px 0px rgb(128, 128, 128);
+  cursor: pointer;
+  margin: 0 10 10 0;
+  overflow: hidden;
+  transition: transform 200ms ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.025);
+}
+
+.card p {
+  padding: 20px 5px;
+  text-align: center;
+}
+
+.card img {
+  height: 250px;
+  min-width: 100%;
+}
+
+.loading {
+  color:rgb(121, 141, 163);
+  font-size: 35px;
+  font-weight: 700;
+  margin: 5em 0;
+  text-align: center;
 }
