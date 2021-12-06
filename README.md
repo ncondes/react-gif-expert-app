@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Gif Expert App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app was built in React, using the giphy API to display different gif on the screen depending on the value of the input field.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The project](#the-project)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### The project
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Search for different gifs
+- Type the topic in the input field and get gif of that topic
+- See the gifs on the screen
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](./public/preview.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Links
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Solution URL: [Solution URL here](https://github.com/ncondes/react-gif-expert-app)
+- Live Site URL: [Live site URL here](https://ncondes.github.io/react-gif-expert-app/)
 
-### `npm run eject`
+## My process
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Built with
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Jest
+- Enzyme
+- [React](https://reactjs.org/) - JS library
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### What I learned and put into practice
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Make the layout ( structure and styles ) of the app
+- Get data from an API
+- Input fields
+- Unit and integration test with jest and enzyme
 
-## Learn More
+### Useful resources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React](https://reactjs.org/) - Documentation of the library React.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Nicolas Conde Salazar](https://www.ncondes.com)
+- Linkedin - [Nicolas Conde Salazar](https://www.linkedin.com/in/ncondes/)

@@ -3,9 +3,9 @@ import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({ defaultCategories = [] }) => {
 
-  const defaultCategories = [ 'Los Simpsons' ];
+  // const defaultCategories = [ 'Los Simpsons' ];
   const [ categories, setCategories ] = useState( defaultCategories );
 
   return (
